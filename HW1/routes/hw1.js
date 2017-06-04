@@ -14,7 +14,7 @@ router.get('/:namedParam', function (req, res, next) {
     res.json({string: theParam, length: theParam.length})
 });
 
-// POST to the home page for the root of path /hw1
+// POST to the page for the root of path /hw1
 // Return the body of request as a JSON object
 router.post('/', function (req, res, next) {
     res.json(req.body)
