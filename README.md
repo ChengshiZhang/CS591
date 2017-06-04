@@ -1,2 +1,5 @@
 # CS591
-MEAN Stack course homework repo
+- Boston University CS591
+- Application Development Using the MEAN Stack
+- Professor Perry Donham
+- Summer 1, 2017
