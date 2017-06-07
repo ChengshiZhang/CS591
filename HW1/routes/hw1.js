@@ -15,9 +15,10 @@ router.get('/:namedParam', function (req, res, next) {
 });
 
 // POST to the page for the root of path /hw1
-// Return the body of request as a JSON object
+// Return a JSON object with the object's "keyString" parameter and its length
 router.post('/', function (req, res, next) {
-    res.json(req.body)
-})
+    let str = req.body.keyString;
+    res.json({string: str, length: str.length})
+});
 
 module.exports = router;
